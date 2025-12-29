@@ -49,7 +49,12 @@ https://drive.google.com/file/d/1q23xEeSfhe3famj7bgXc8tLNyuY040im/vie
 - **Training Loss :** 0.198 
 - **Precision:** 0.73 
 - **Recall:** 0.74  
-  
-The model was trained for 5 epochs using transfer learning on ResNet18, with Adam optimizer and CrossEntropyLoss.
+  The model was trained for 5 epochs using transfer learning on ResNet18, with Adam optimizer and CrossEntropyLoss.
 ---
+
+## Live Demo
+A Gradio-based web interface was implemented to demonstrate the model:
+- Upload a face image
+- View predicted identity
+- Display top-5 predictions with confidence percentages
 
